@@ -1,7 +1,11 @@
 <template>
-  <Tutorial/>
+  <div class="">Webjar</div>
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.$router.push('/blog')
+  }
+}
 </script>
